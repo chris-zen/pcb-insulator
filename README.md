@@ -9,7 +9,9 @@ The design is for a board of 100x75 mm, but you can compose several boards to in
 LED specs: 3.3V 20mA
 
 Voltage across resistor = 12V - (3 * 3.2V) = 2.4V
+
 Resistor value = 2.4V / 0.02A = 120 Ohm
+
 Power dissipated by resistor = 2.4V * 0.02A = 0.048 W = 48 mW
 
 Power consumed by LED = 3.2V * 0.02A = 0.064W = 64mW
@@ -17,9 +19,11 @@ Power consumed by LED = 3.2V * 0.02A = 0.064W = 64mW
 1 Board contains 16 resistors and 48 LEDs
 
 Total power dissipated by resistors = 16 * 0.048W = 0.768W
+
 Total power consumed by LEDs = 48 * 0.064W = 3.072W
 
 **Total power = 0.768W + 3.072W = 3.84W**
+
 **Total current consumption = 3.84W / 12V = 0.32A**
 
 If you compose 4 boards you would need a power supply supporting 15.36W and 1.28A
