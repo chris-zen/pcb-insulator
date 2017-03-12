@@ -2,7 +2,7 @@
 
 This project contains the design ideas to build a PCB insulator using UV LEDS.
 
-The design is for a board of 100x75 mm, but you can compose several boards to increase the exposure surface. But remember that you will need to use the appropriate power supply. I include some numbers to help with this.
+The design is for a board of 100x75 mm, but you can compose several boards to increase the exposure surface. Just remember that you will need to use the appropriate power supply. I include some numbers to help with this.
 
 # Numbers per board
 
@@ -42,3 +42,4 @@ I have based my design on those other projects:
 - [LEDs UV](https://www.amazon.es/gp/product/B01ANW9ZX2/ref=ox_sc_act_title_2?ie=UTF8&psc=1&smid=A1DMSD13LMYETC).
 - [Power supply](https://www.amazon.es/gp/product/B01GC5QQ1I/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1)
 - 100x75mm single layer PCB
+- 120 Ohm 1/4W resistors
