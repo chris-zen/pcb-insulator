@@ -4906,6 +4906,62 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DINA4_L">
+<frame x1="0" y1="0" x2="264.16" y2="180.34" columns="4" rows="4" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DINA4_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with extra doc field</description>
+<gates>
+<gate name="G$1" symbol="DINA4_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="162.56" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4917,7 +4973,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="R1" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="LD1" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD4" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD7" library="adafruit" deviceset="LED" device="5MM"/>
@@ -4925,12 +4981,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="LD13" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD16" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD19" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="LD2" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD3" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD5" library="adafruit" deviceset="LED" device="5MM"/>
@@ -4945,13 +5001,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="LD18" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD20" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD21" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R12" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
-<part name="R14" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R13" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R14" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="LD22" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD25" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD28" library="adafruit" deviceset="LED" device="5MM"/>
@@ -4974,11 +5030,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="LD39" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD42" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="SV2" library="con-lstb" deviceset="MA03-1" device=""/>
-<part name="R15" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
+<part name="R15" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="LD43" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD44" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD45" library="adafruit" deviceset="LED" device="5MM"/>
-<part name="R16" library="resistor" deviceset="R-EU_" device="M1206" value="150"/>
+<part name="R16" library="resistor" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="LD46" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD47" library="adafruit" deviceset="LED" device="5MM"/>
 <part name="LD48" library="adafruit" deviceset="LED" device="5MM"/>
@@ -4986,10 +5042,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY1" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
+<part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="-33.02" y="104.14" size="1.778" layer="96">12V</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="-30.48" y="83.82"/>
@@ -5061,6 +5119,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="SUPPLY1" gate="G$1" x="-35.56" y="106.68"/>
 <instance part="SUPPLY2" gate="GND" x="22.86" y="2.54"/>
 <instance part="SUPPLY3" gate="GND" x="99.06" y="2.54"/>
+<instance part="FRAME1" gate="G$1" x="-96.52" y="-50.8"/>
+<instance part="FRAME1" gate="G$2" x="66.04" y="-50.8"/>
 </instances>
 <busses>
 </busses>
