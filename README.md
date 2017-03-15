@@ -43,3 +43,7 @@ I have based my design on those other projects:
 - [Power supply](https://www.amazon.es/gp/product/B01GC5QQ1I/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1)
 - 100x75mm single layer PCB
 - 120 Ohm 1/4W resistors
+
+# Photos
+
+https://goo.gl/photos/k7TKoiVqc2WFZSGJ9
